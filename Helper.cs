@@ -41,14 +41,14 @@ namespace csharp_calcolatrice
         public static int Abs(int a)
         {   
             if (a < 0) 
-                return a + (a * -2);
+                return -a;
             return a;
         }
 
         public static double Abs(double a)
         {
             if (a < 0)
-                return a + (a * -2);
+                return -a;
             return a;
         }
 

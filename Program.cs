@@ -5,7 +5,7 @@
         static void Main()
         {
             int a = -2;
-            int b = 3;
+            int b = 0;
 
             Console.WriteLine($"I numeri sono {a} e {b}");
 
